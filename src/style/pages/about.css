@@ -1,0 +1,55 @@
+#aboutForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+
+    #feed {
+        width: 600px;
+        height: 250px;
+        overflow: hidden;
+        resize: none;
+        padding: 30px;
+        margin-top: 26px;
+    }
+
+    label {
+        font-size: 25px;
+    }
+
+    p {
+        margin-top: 35px;
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+
+    #star {
+        display: flex;
+        gap: 4px;
+    }
+
+    button {
+        width: 600px;
+        height: 40px;
+        cursor: pointer;
+        background-color: pink;
+        border: 2px solid black;
+        font-weight: bold;
+        letter-spacing: 3px;
+        margin-top: 40px;
+
+        &:hover {
+            background-color: black;
+            border-color: pink;
+            color: pink;
+        }
+    }
+
+    svg {
+        stroke-width: 1px;
+        stroke: black;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+}

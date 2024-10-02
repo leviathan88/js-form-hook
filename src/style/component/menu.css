@@ -1,0 +1,29 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 130px;
+    background-color: gray;
+
+    img {
+        width: 60px;
+        height: 60px;
+    }
+
+    ul {
+        display: flex;
+        gap: 80px;
+        font-weight: bold;
+        font-size: 18px;
+
+        a {
+            color: pink;
+            transition: .3s;
+        }
+
+        a:hover {
+            color: chartreuse;
+        }
+    }
+}
